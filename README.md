@@ -3,6 +3,7 @@
 This project is to retrieve the latest price of different token. 
 It will run every 5Minutes.
 
+The database information, please update into the application config files. 
 In order to run the console APP, please install latest net.Framework 4.8 and create the database with the script:
 
 use tokenDB;

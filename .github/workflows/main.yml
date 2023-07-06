@@ -1,7 +1,7 @@
 on:
   pull_request:
     branches:
-      - main
+      - master
     types: [closed]
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: EtherscanV3Design/jenkins-action@main
+      uses: EtherscanV3Design/jenkins-action@master
       with:
         url: "https://jenkins.thecman.xyz"
         user: "escadmin"

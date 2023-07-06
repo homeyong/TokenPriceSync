@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: homeyong/TokenPriceSync@master
       with:
         url: "https://jenkins.thecman.xyz"
         user: "escadmin"

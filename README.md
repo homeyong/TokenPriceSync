@@ -1,6 +1,6 @@
 # TokenPriceSync
 
-This project is to retrieve the latest price of different token. 99
+This project is to retrieve the latest price of different token. 99999
 It will run every 5Minutes.
 
 The database information, please update into the application config files. 

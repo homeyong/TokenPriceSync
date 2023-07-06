@@ -1,0 +1,17 @@
+on:
+  pull_request:
+    branches:
+      - main
+    types: [closed]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: trigger single Job
+      uses: EtherscanV3Design/jenkins-action@main
+      with:
+        url: "https://jenkins.thecman.xyz"
+        user: "escadmin"
+        token: "11d58ff67fd0fef6edfed38130d5826736"
+        job: "EtherscanV3Design"
